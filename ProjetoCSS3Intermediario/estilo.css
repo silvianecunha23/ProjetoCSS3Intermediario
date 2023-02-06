@@ -1,0 +1,37 @@
+/*Modelo de caixa (boxmodel)*/
+
+.conteudo1{
+	border: 1px solid red;
+	
+	/*padding: espaçamento interno*/
+	/*Opção 1: definir espaçamentos unitários:
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;*/
+
+	/*Opção 2: definir os espaçamentos em sentido 
+	horário (top, right, bottom e left):
+	padding: 20px 20px 20px 20px;*/
+
+	/*Opção 3: definir os espaçamentos com 2 valores,
+	(1º valor: top e bottom) e (2º valor: right e left):
+	padding: 20px 20px;*/
+
+	/*Opção 4: definir um espaçamento padrão para
+	todos os lados com somente um valor:*/
+	padding: 20px;
+
+	/*margin tem as mesmas opções de definção de
+	espaçamento que o padding!*/
+	margin: 20px;
+
+	width: 150px;
+}
+
+.conteudo2{
+	border: 1px solid blue;
+	padding: 20px;
+	margin: 100px;
+	width: 300px;
+}
